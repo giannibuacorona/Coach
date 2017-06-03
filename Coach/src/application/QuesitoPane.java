@@ -48,6 +48,8 @@ public class QuesitoPane extends GridPane {
 		add(consegnaLabel, 0, 0);
 
 		HBox hBox =  new HBox(30);
+		hBox.getStyleClass().add("hbox");
+		
 
 		Label testo1Label = new Label(testo1);
 		hBox.getChildren().add(testo1Label);
